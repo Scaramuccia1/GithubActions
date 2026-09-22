@@ -9,7 +9,6 @@ jobs:
    steps: 
      - run: echo "Начало выполнения"
      - run: ls
-     - run: cd ..
+     - run: cd -
      - run: pwd
-     - run: cd ..
      - run: npm run build
